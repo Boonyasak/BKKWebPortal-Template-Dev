@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+    .entry-content .fl-col-small {
+        max-width: unset
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .entry-content .fl-module-SingleCard .fl-module-content,
+    .entry-content .fl-module-MasonryCardCollection .fl-module-content,
+    .entry-content .fl-module-CardCollection .fl-module-content,
+    .entry-content .fl-module-StructuredCardCollection .fl-module-content,
+    .entry-content .fl-module-TiledCard .fl-module-content,
+    .entry-content .fl-module-EventsWidget .fl-module-content {
+        margin-right: 10px;
+        margin-left: 10px
+    }
+}
+
+.fl-col-group-equal-height .fl-module-SingleCard,
+.fl-col-group-equal-height .fl-module-TiledCard,
+.fl-col-group-equal-height .fl-module-EventsWidget,
+.fl-col-group-equal-height .fl-module-SidebarMenu,
+.fl-col-group-equal-height .fl-module-StructuredCardCollection,
+.fl-col-group-equal-height .fl-module-CardCollectionEqualHeights,
+.fl-col-group-equal-height .fl-module-MasonryCardCollection {
+    flex: 1 1 auto;
+    display: flex
+}
+
+.fl-col-group-equal-height .fl-module-SingleCard .fl-module-content,
+.fl-col-group-equal-height .fl-module-TiledCard .fl-module-content,
+.fl-col-group-equal-height .fl-module-EventsWidget .fl-module-content,
+.fl-col-group-equal-height .fl-module-SidebarMenu .fl-module-content,
+.fl-col-group-equal-height .fl-module-StructuredCardCollection .fl-module-content,
+.fl-col-group-equal-height .fl-module-CardCollectionEqualHeights .fl-module-content,
+.fl-col-group-equal-height .fl-module-MasonryCardCollection .fl-module-content {
+    flex: 1 1 100%;
+    overflow: hidden;
+    width: 100%
+}
+
+.fl-col-group-equal-height .fl-module-SingleCard .fl-module-content .o-module-wrapper,
+.fl-col-group-equal-height .fl-module-TiledCard .fl-module-content .o-module-wrapper,
+.fl-col-group-equal-height .fl-module-EventsWidget .fl-module-content .o-module-wrapper,
+.fl-col-group-equal-height .fl-module-SidebarMenu .fl-module-content .o-module-wrapper,
+.fl-col-group-equal-height .fl-module-StructuredCardCollection .fl-module-content .o-module-wrapper,
+.fl-col-group-equal-height .fl-module-CardCollectionEqualHeights .fl-module-content .o-module-wrapper,
+.fl-col-group-equal-height .fl-module-MasonryCardCollection .fl-module-content .o-module-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+@media (min-width: 992px) {
+
+    .fl-col-group-equal-height .fl-visible-medium,
+    .fl-col-group-equal-height .fl-visible-medium-mobile,
+    .fl-col-group-equal-height .fl-visible-mobile {
+        display: none
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .fl-col-group-equal-height .fl-visible-desktop,
+    .fl-col-group-equal-height .fl-visible-mobile {
+        display: none
+    }
+}
+
+@media (max-width: 767px) {
+
+    .fl-col-group-equal-height .fl-visible-desktop,
+    .fl-col-group-equal-height .fl-visible-desktop-medium,
+    .fl-col-group-equal-height .fl-visible-medium {
+        display: none
+    }
+}

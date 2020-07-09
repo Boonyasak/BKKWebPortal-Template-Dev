@@ -1,0 +1,180 @@
+#bccms_footer * {
+    margin: 0;
+    padding: 0
+}
+
+#bccms_footer a {
+    text-decoration: none
+}
+
+#bccms_footer ul {
+    list-style-type: none
+}
+
+#bccms_footer img {
+    border: none
+}
+
+#bccms_footer .clearfix,
+#bccms_footer .clear {
+    *zoom: 1
+}
+
+#bccms_footer .clearfix:before,
+#bccms_footer .clearfix:after,
+#bccms_footer .clear:before,
+#bccms_footer .clear:after {
+    display: table;
+    content: "";
+    line-height: 0
+}
+
+#bccms_footer .clearfix:after,
+#bccms_footer .clear:after {
+    clear: both
+}
+
+#bccms_footer span,
+#bccms_footer applet,
+#bccms_footer object,
+#bccms_footer iframe,
+#bccms_footer h1,
+#bccms_footer h2,
+#bccms_footer h3,
+#bccms_footer h4,
+#bccms_footer h5,
+#bccms_footer h6,
+#bccms_footer p,
+#bccms_footer blockquote,
+#bccms_footer pre,
+#bccms_footer a,
+#bccms_footer abbr,
+#bccms_footer acronym,
+#bccms_footer address,
+#bccms_footer big,
+#bccms_footer cite,
+#bccms_footer code,
+#bccms_footer del,
+#bccms_footer dfn,
+#bccms_footer em,
+#bccms_footer img,
+#bccms_footer ins,
+#bccms_footer kbd,
+#bccms_footer q,
+#bccms_footer s,
+#bccms_footer samp,
+#bccms_footer small,
+#bccms_footer strike,
+#bccms_footer strong,
+#bccms_footer sub,
+#bccms_footer sup,
+#bccms_footer tt,
+#bccms_footer var,
+#bccms_footer b,
+#bccms_footer u,
+#bccms_footer i,
+#bccms_footer center,
+#bccms_footer dl,
+#bccms_footer dt,
+#bccms_footer dd,
+#bccms_footer ol,
+#bccms_footer ul,
+#bccms_footer li,
+#bccms_footer fieldset,
+#bccms_footer form,
+#bccms_footer label,
+#bccms_footer legend,
+#bccms_footer table,
+#bccms_footer caption,
+#bccms_footer tbody,
+#bccms_footer tfoot,
+#bccms_footer thead,
+#bccms_footer tr,
+#bccms_footer th,
+#bccms_footer td,
+#bccms_footer article,
+#bccms_footer aside,
+#bccms_footer canvas,
+#bccms_footer details,
+#bccms_footer embed,
+#bccms_footer figure,
+#bccms_footer figcaption,
+#bccms_footer footer,
+#bccms_footer header,
+#bccms_footer hgroup,
+#bccms_footer menu,
+#bccms_footer nav,
+#bccms_footer output,
+#bccms_footer ruby,
+#bccms_footer section,
+#bccms_footer summary,
+#bccms_footer time,
+#bccms_footer mark,
+#bccms_footer audio,
+#bccms_footer video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+#bccms_footer ol,
+#bccms_footer ul {
+    list-style: none
+}
+
+@media screen and (max-width: 1024px) {
+    body#context_core.lt_legacy.lt_bootstrap.one_col.touch_mobile {
+        width: 973px
+    }
+
+    body#context_core.lt_legacy.lt_bootstrap.one_col.touch_mobile div#cms_external_footer {
+        width: 973px
+    }
+}
+
+a.skip_to_region {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    background-color: #fff;
+    top: -10px;
+    z-index: 100000;
+    font-size: 1.00rem !important;
+    color: #006E96
+}
+
+a.skip_to_region:focus {
+    box-shadow: 0 0 0 0.2em rgba(2, 114, 158, 0.5)
+}
+
+@media (-ms-high-contrast: active) {
+    a.skip_to_region:focus {
+        outline: #02729e solid 0.2rem
+    }
+}
+
+a.skip_to_region:focus {
+    top: 0;
+    height: auto;
+    width: auto;
+    left: 0;
+    padding: 10px !important;
+    border: 1px solid black;
+    overflow: visible
+}
+
+#sidemenu a.skip_to_region:focus {
+    top: -39px
+}
+
+#top {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -1px
+}
